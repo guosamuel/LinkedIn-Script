@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "script": "node --no-warnings=ExperimentalWarning --loader ts-node/esm ./script.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19"
+  }
+}
